@@ -79,18 +79,7 @@ This application predicts future stock prices using a simple neural network (Bra
 
 ---
 
-## Brain.js CDN Usage
-
-- The app does **not** use the npm `brain.js` package.
-- Instead, the browser build is loaded via CDN in `src/app/layout.tsx`:
-  ```tsx
-  <Script
-    src="https://cdn.jsdelivr.net/npm/brain.js@2.0.0-beta.23/dist/brain-browser.min.js"
-    strategy="beforeInteractive"
-  />
-  ```
-- In client components, use `window.brain.NeuralNetwork` for all neural network logic.
-- This approach avoids native build issues and works on all platforms, including Vercel.
+## Brain.js
 
 ---
 
