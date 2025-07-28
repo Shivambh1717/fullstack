@@ -80,6 +80,7 @@ This application predicts future stock prices using a simple neural network (Bra
 ---
 
 ## Brain.js
+Brain.js is a JavaScript library for neural networks, designed to make it easy to create, train, and run neural networks directly in the browser or in Node.js. In this project, Brain.js is used via a CDN (as window.brain.NeuralNetwork) to implement a simple feedforward neural network that predicts future stock prices based on historical closing prices. The model is trained on past data, where each input is a closing price and the output is the next day's closing price. After training, the neural network predicts the next closing price, which is then displayed in the app's UI and chart. Brain.js is well-suited for quick prototyping and educational purposes due to its simplicity and browser compatibility.
 
 ---
 
